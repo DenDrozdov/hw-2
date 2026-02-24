@@ -22,6 +22,8 @@ import coil3.request.ImageRequest
 import coil3.request.crossfade
 import kotlinx.serialization.Serializable
 
+
+// Добрый день)
 @Serializable
 object WelcomeDestination
 
