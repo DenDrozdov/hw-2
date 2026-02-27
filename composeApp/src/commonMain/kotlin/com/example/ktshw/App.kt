@@ -22,6 +22,8 @@ import coil3.request.ImageRequest
 import coil3.request.crossfade
 import kotlinx.serialization.Serializable
 
+
+// Добрый день)
 @Serializable
 object WelcomeDestination
 
@@ -83,7 +85,7 @@ fun WelcomeScreen(onNavigateToLogin: () -> Unit) {
                 .fillMaxWidth()
                 .weight(1f)
         ) {
-            // Долго думал почему нет изображения, оказалось ссылка заканчивалась не на .jpeg
+            // Долго думал почему нет изображения , оказалось ссылка заканчивалась не на .jpeg
             SubcomposeAsyncImage(
                 model = ImageRequest.Builder(context)
                     .data("https://abrakadabra.fun/uploads/posts/2021-12/1639048666_7-abrakadabra-fun-p-kot-sfinks-art-7.jpg")
