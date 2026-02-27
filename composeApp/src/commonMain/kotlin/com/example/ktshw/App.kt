@@ -224,7 +224,7 @@ fun WelcomeScreenPreview() {
         }
     }
 }
-
+// комментарий
 @Composable
 fun LoginScreenPreview() {
     MaterialTheme {
